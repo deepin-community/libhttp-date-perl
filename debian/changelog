@@ -1,3 +1,9 @@
+libhttp-date-perl (6.05-1deepin1) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-14741
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 16 Jul 2026 22:40:09 +0800
+
 libhttp-date-perl (6.05-1) unstable; urgency=medium
 
   [ Salvatore Bonaccorso ]
