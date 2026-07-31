@@ -1,3 +1,13 @@
+libhttp-date-perl (6.06-1deepin1) unstable; urgency=medium
+
+  * CVE-2026-14741 - 安全修复
+    - Reject input longer than 64 characters in parse_date()
+      to prevent quadratic regex backtracking (a denial of service)
+      on hostile date strings.
+    - Closes: CVE-2026-14741
+
+ -- lichenggang <lichenggang@deepin.org>  Fri, 31 Jul 2026 17:56:00 +0800
+
 libhttp-date-perl (6.06-1) unstable; urgency=medium
 
   * Team upload.
